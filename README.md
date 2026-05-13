@@ -90,6 +90,7 @@ README.md
 - `framework/manifiesto-utamv.md`
 - `framework/metodologia-tamv-4l-apex-eoct.md`
 - `framework/sistema-coreografia-apex-contenidos-utamv.md`
+- `framework/metodologia-tamv-4l-apex-eoct.md`
 - `framework/epistemologia-utamv.md`
 - `framework/etica-y-soberania-tecnologica.md`
 - `framework/principios-ejecucion.md`
@@ -98,7 +99,6 @@ README.md
 - `docs/malla-curricular.md`
 - `docs/evaluacion-y-certificacion.md`
 - `docs/arquitectura-academica-utamv.md`
-- `docs/matriz-estandar-utamv-por-ruta.md`
 - `09-investigacion-y-defensa/modulo-6-investigacion-EOCT.md`
 - `aplicacion/casos-canonic/`
 
