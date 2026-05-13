@@ -14,3 +14,8 @@ Todo módulo y proyecto debe mapear:
 3) evidencia EOCT,
 4) documentación de iteración,
 5) defensa transferible.
+
+
+## Anexo operativo de rutas
+
+Ver `docs/matriz-estandar-utamv-por-ruta.md` para la gramática modular universal de construcción por ruta.

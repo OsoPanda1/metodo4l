@@ -24,5 +24,6 @@
 | Glosario institucional | Contrato semántico del sistema |
 | Referencias base | Anclaje académico mínimo |
 | Malla + certificación | Progresión y evaluación institucional |
+| Matriz estándar por ruta | Sistema modular reusable por dominio |
 | Casos canónicos | Evidencia empírica reusable |
 
