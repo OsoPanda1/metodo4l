@@ -90,6 +90,7 @@ README.md
 - `framework/manifiesto-utamv.md`
 - `framework/metodologia-tamv-4l-apex-eoct.md`
 - `framework/sistema-coreografia-apex-contenidos-utamv.md`
+- `framework/metodologia-tamv-4l-apex-eoct.md`
 - `framework/epistemologia-utamv.md`
 - `framework/etica-y-soberania-tecnologica.md`
 - `framework/principios-ejecucion.md`
