@@ -1,0 +1,14 @@
+{
+  "name": "utamv-os-saas-starter",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "tsx apps/api/src/server.ts",
+    "dev:web": "next dev apps/web",
+    "typecheck": "tsc --noEmit"
+  }
+}

@@ -1,0 +1,25 @@
+route: marketing-civilizatorio
+
+modules:
+  - id: M3
+    title: Metodo 4L
+    lessons:
+      - code: M3.L2
+        title: Landscape
+        apex: ["analysis"]
+        eoct_focus: ["C", "O"]
+
+      - code: M3.L3
+        title: Leverage
+        apex: ["analysis", "practice"]
+        eoct_focus: ["O"]
+
+      - code: M3.L4
+        title: Loop
+        apex: ["practice", "evidence"]
+        eoct_focus: ["O", "T"]
+
+      - code: M3.L5
+        title: Learn
+        apex: ["evidence", "xtrapolation"]
+        eoct_focus: ["C", "E"]
