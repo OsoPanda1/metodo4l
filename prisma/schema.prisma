@@ -1,0 +1,52 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  role      String   @default("student")
+  projects  Project[]
+  createdAt DateTime @default(now())
+}
+
+model Route {
+  id      String   @id @default(cuid())
+  name    String
+  slug    String   @unique
+  modules Module[]
+}
+
+model Module {
+  id      String   @id @default(cuid())
+  code    String
+  title   String
+  routeId String
+  route   Route    @relation(fields: [routeId], references: [id])
+  lessons Lesson[]
+}
+
+model Lesson {
+  id       String @id @default(cuid())
+  code     String
+  title    String
+  moduleId String
+  module   Module @relation(fields: [moduleId], references: [id])
+  apexType String
+}
+
+model Project {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  name      String
+  eoctScore Json
+  fourLData Json
+  createdAt DateTime @default(now())
+}
