@@ -14,6 +14,9 @@
 
 | Recurso | Propósito |
 |---|---|
+| Manifiesto UTAMV | Base doctrinal y origen del enfoque |
+| Metodología TAMV-4L-APEX-EOCT | Marco rector de diseño-validación |
+| Coreografía A.P.E.X. | Integración narrativa-operativa por lección |
 | Metodología TAMV-4L-APEX-EOCT | Marco rector de diseño-validación |
 | Epistemología UTAMV | Criterio de verdad y diferenciación |
 | Ética y soberanía tecnológica | Límites y autonomía operativa |

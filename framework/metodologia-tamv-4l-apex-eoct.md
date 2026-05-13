@@ -6,6 +6,8 @@ UTAMV CAMPUS · Método 4L · 2026
 
 ---
 
+> Documento complementario: `framework/manifiesto-utamv.md` (origen, hipótesis y declaración doctrinal).
+
 ## 1. Naturaleza del marco
 
 La Metodología UTAMV es el marco institucional que guía cómo se diseñan, ejecutan, miden y documentan los proyectos y procesos formativos dentro de UTAMV CAMPUS.
@@ -275,6 +277,8 @@ Legado es todo conocimiento, protocolo, plantilla o arquitectura que puede ser r
 Sin legado hay ejecución; con legado hay construcción institucional.
 
 ---
+
+> Implementación instruccional recomendada: `framework/sistema-coreografia-apex-contenidos-utamv.md` para activar A.P.E.X. vía secuencia de audio por lección.
 
 ## 7. Aplicación curricular
 
