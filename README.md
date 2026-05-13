@@ -84,6 +84,26 @@ README.md
 
 ---
 
+
+## Núcleo canónico (integración formal)
+
+- `framework/manifiesto-utamv.md`
+- `framework/metodologia-tamv-4l-apex-eoct.md`
+- `framework/sistema-coreografia-apex-contenidos-utamv.md`
+- `framework/epistemologia-utamv.md`
+- `framework/etica-y-soberania-tecnologica.md`
+- `framework/principios-ejecucion.md`
+- `framework/glosario-institucional-utamv.md`
+- `framework/referencias-base.md`
+- `docs/malla-curricular.md`
+- `docs/evaluacion-y-certificacion.md`
+- `docs/arquitectura-academica-utamv.md`
+- `docs/matriz-estandar-utamv-por-ruta.md`
+- `09-investigacion-y-defensa/modulo-6-investigacion-EOCT.md`
+- `aplicacion/casos-canonic/`
+
+---
+
 ## Estado actual
 
 Versión inicial del repositorio académico. La siguiente fase es expandir cada ruta con:
