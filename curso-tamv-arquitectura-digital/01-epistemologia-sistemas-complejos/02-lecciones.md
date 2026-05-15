@@ -7,16 +7,16 @@ Cambiar la forma de pensar.
 Mercado digital como sistema vivo y mapa inicial de valor.
 
 ## Lección 3 · M1.L3
-Introducción operativa al Método 4L como “cerebro” del arquitecto.
+Introducción operativa al Método 4L como cerebro del arquitecto.
 
-Esta lección toma el mapa de mercado de M1.L2 y lo convierte en una primera lectura 4L:
+Esta lección toma el sistema de mercado construido en M1.L2 y lo convierte en una primera lectura 4L:
 
-- **Landscape:** actores y fuerzas clave mapeadas.
-- **Leverage:** al menos una palanca sistémica identificada.
-- **Loop:** un bucle de retroalimentación descrito.
-- **Learn:** una regla o protocolo sencillo definido.
+- **Landscape:** actores, factores y elementos clave del ecosistema antes de mover nada.
+- **Leverage:** al menos una palanca real del sistema, más allá de métricas superficiales.
+- **Loop:** un bucle de retroalimentación positivo o negativo que ya opera en el sistema.
+- **Learn:** una regla o protocolo tipo “si pasa X, hacemos Y” que cristaliza el aprendizaje.
 
-El foco no es hacer un análisis perfecto, sino entrenar el reflejo operativo de leer el sistema antes de intervenirlo.
+El foco no es hacer un análisis perfecto, sino ordenar cómo el alumno mira su entorno, dónde pone atención, qué decide mover y cómo aprende de los efectos que se desencadenan.
 
 Ver ficha completa: `07-ficha-m1-l3-metodo-4l.md`.
 

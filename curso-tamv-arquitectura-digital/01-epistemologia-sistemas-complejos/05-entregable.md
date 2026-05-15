@@ -13,10 +13,10 @@ Debe incluir:
 
 Además del mapa visual, el alumno debe documentar su primera aplicación del Método 4L al sistema de mercado trabajado en M1.L2.
 
-El documento puede ser una página en el LMS, una captura o un archivo en su repositorio, y debe contener:
+El documento debe ser sencillo —en el formato que defina el LMS: texto, plantilla o captura— y debe contener:
 
-- **Landscape:** lista o esquema de actores y fuerzas principales del sistema de mercado.
-- **Leverage:** una palanca clara que podría mover desproporcionadamente los resultados.
-- **Loop:** un bucle positivo o negativo ya existente.
-- **Learn:** una regla o protocolo sencillo del tipo “si pasa X, hacemos Y”.
+- **Landscape:** descripción breve de elementos y actores principales del sistema: usuarios, emociones, redes sociales, competencia, plataformas, comunidades, regulaciones y grupos que pueden reaccionar o amplificar cambios.
+- **Leverage:** identificación y explicación de al menos una palanca real del sistema, no solo una métrica visible.
+- **Loop:** descripción de por lo menos un bucle de crecimiento o deterioro ya presente en el sistema.
+- **Learn:** una regla o protocolo del tipo “si pasa X, hacemos Y” que transforme la observación en guía explícita para futuras decisiones.
 - **Diagnóstico de madurez:** fase actual del proyecto —mosaico, integración o infraestructura— con dos decisiones sistémicas para los próximos 30 días.

@@ -10,10 +10,10 @@ modules:
         apex: ["analysis", "practice", "evidence", "xtrapolation"]
         tamv_focus: ["contenido", "plataformas", "usuarios", "ofertas"]
         four_l_outputs:
-          landscape: "Actores y fuerzas clave mapeadas"
-          leverage: "Al menos una palanca sistémica identificada"
-          loop: "Un bucle de retroalimentación descrito"
-          learn: "Una regla o protocolo sencillo definido"
+          landscape: "Actores, factores y elementos clave del ecosistema mapeados antes de mover nada"
+          leverage: "Al menos una palanca real del sistema identificada, más allá de métricas superficiales"
+          loop: "Un bucle de retroalimentación positivo o negativo descrito"
+          learn: "Una regla o protocolo tipo si pasa X, hacemos Y definido"
         eoct_focus: ["O", "C", "T"]
         deliverable: "Primera lectura 4L documentada sobre el mapa M1.L2"
 
