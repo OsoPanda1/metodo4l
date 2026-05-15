@@ -24,3 +24,4 @@ Pasar de leer métricas aisladas a interpretar mercados como sistemas complejos.
 - 04-ejercicios.md
 - 05-entregable.md
 - 06-rubrica.md
+- 07-ficha-m1-l3-metodo-4l.md
