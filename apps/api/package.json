@@ -1,0 +1,17 @@
+{
+  "name": "@utamv/api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "start": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.0",
+    "@utamv/core-engine": "*",
+    "express": "^4.18.3"
+  }
+}

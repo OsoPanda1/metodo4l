@@ -1,9 +1,7 @@
 import express from "express";
-import { PrismaClient } from "@prisma/client";
-import { evaluateProject } from "../../../packages/core-engine";
+import { evaluateProject, prisma } from "@utamv/core-engine";
 
 const app = express();
-const prisma = new PrismaClient();
 
 app.use(express.json());
 

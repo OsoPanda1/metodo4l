@@ -1,11 +1,29 @@
-version: "3.8"
+version: "3.9"
+
 services:
   db:
-    image: postgres
+    image: postgres:15
     restart: always
     environment:
-      POSTGRES_PASSWORD: utamv
       POSTGRES_USER: utamv
-      POSTGRES_DB: utamv
+      POSTGRES_PASSWORD: utamv
+      POSTGRES_DB: metodo4l
     ports:
       - "5432:5432"
+    volumes:
+      - metodo4l_db:/var/lib/postgresql/data
+
+  campus:
+    build:
+      context: .
+      dockerfile: apps/campus/Dockerfile
+    restart: always
+    env_file:
+      - .env
+    depends_on:
+      - db
+    ports:
+      - "3000:3000"
+
+volumes:
+  metodo4l_db:
