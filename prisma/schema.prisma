@@ -8,12 +8,51 @@ datasource db {
 }
 
 model User {
+  id           String        @id @default(cuid())
+  email        String        @unique
+  name         String?
+  role         String        @default("student")
+  wallet       Wallet?
+  projects     Project[]
+  transactions Transaction[]
+  createdAt    DateTime      @default(now())
+}
+
+model Wallet {
+  id      String @id @default(cuid())
+  userId  String @unique
+  balance Float  @default(0)
+  user    User   @relation(fields: [userId], references: [id])
+}
+
+model Transaction {
   id        String   @id @default(cuid())
-  email     String   @unique
-  name      String?
-  role      String   @default("student")
-  projects  Project[]
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  amount    Float
+  type      String
   createdAt DateTime @default(now())
+}
+
+model Place {
+  id   String @id @default(cuid())
+  name String
+  type String
+  lat  Float
+  lng  Float
+}
+
+model Commerce {
+  id       String @id @default(cuid())
+  name     String
+  category String
+}
+
+model PaymentIntent {
+  id       String @id @default(cuid())
+  amount   Float
+  status   String
+  provider String
 }
 
 model Route {
@@ -49,4 +88,81 @@ model Project {
   eoctScore Json
   fourLData Json
   createdAt DateTime @default(now())
+}
+
+model Ruta {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  nombre      String
+  descripcion String
+  resultado   String
+  nivelMinimo Int      @default(1)
+  modulos     Modulo[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Modulo {
+  id             String      @id @default(cuid())
+  rutaId         String
+  ruta           Ruta        @relation(fields: [rutaId], references: [id])
+  indice         Int
+  nombre         String
+  capa4L         Capa4L
+  resumen        String
+  resultados     String
+  horasEstimadas Int
+  tipo           TipoModulo
+  evidencias     Evidencia[]
+  rubricas       Rubrica[]
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
+
+  @@unique([rutaId, indice])
+}
+
+model Evidencia {
+  id          String        @id @default(cuid())
+  moduloId    String
+  modulo      Modulo        @relation(fields: [moduloId], references: [id])
+  tipo        TipoEvidencia
+  descripcion String
+  plantilla   String?
+  obligatorio Boolean       @default(true)
+
+  @@unique([moduloId, tipo, descripcion])
+}
+
+model Rubrica {
+  id              String @id @default(cuid())
+  moduloId        String
+  modulo          Modulo @relation(fields: [moduloId], references: [id])
+  criterio        String
+  nivelOperador   String
+  nivelDisenador  String
+  nivelArquitecto String
+  nivelCentinela  String
+
+  @@unique([moduloId, criterio])
+}
+
+enum Capa4L {
+  LECTURA
+  LOGICA
+  LABORATORIO
+  LEGADO
+}
+
+enum TipoModulo {
+  TEORICO
+  PRACTICO
+  INTEGRADOR
+}
+
+enum TipoEvidencia {
+  REPO
+  INFORME
+  DASHBOARD
+  CAMPAÑA
+  PROTOTIPO
 }
