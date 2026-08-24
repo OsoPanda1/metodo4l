@@ -11,7 +11,7 @@
   "dependencies": {
     "@prisma/client": "^5.12.0",
     "@utamv/core-engine": "*",
-    "next": "15.5.18",
+    "next": "15.5.21",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "stripe": "^16.2.0"
